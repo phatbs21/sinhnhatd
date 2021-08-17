@@ -9,12 +9,18 @@
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="style/style.css">
+  <head>
+    <script>
+    window.onload = function() {
+      var context = new AudioContext();
+    }
+    </script>
+    </head>
 </head>
 
 <body>
-  <iframe src="hbd.mp3" allow="autoplay" id="audio"></iframe>
 
-  <audio id="player" autoplay controls>
+  <audio  autoplay controls>
     <source src="hbd.mp3" type="audio/mp3">
   </audio>
 
